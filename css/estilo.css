@@ -1,0 +1,104 @@
+body
+{
+	
+	margin: auto; /* margen */
+	background: url(../img/123.png);
+	font-family: segoe ui; /* tipo de letra del cuerpo segoe ui*/
+}
+header /*encabezamiento*/
+{
+	
+	
+	
+	
+	background: #daa520;
+	font-family: segoe ui;
+	font-style: italic;
+	height: 120 px;/*altura*/
+	margin:0 auto;
+	width: 920px;
+}
+#global
+{
+	width: 900px;/* anchura  */
+	margin:  auto;
+	padding: 10px; /*relleno*/
+	box-shadow: #333 10px 5px 35px;/* entorno del banner "efecto bordes" hoja principal entorno, primero eje x, y y  */
+	background-color: #daa520; /*color de fondo del banner */
+}
+
+nav
+{
+	background-color: #0B3861;
+}
+nav ul li
+{
+	color: #0000FF; /*#0000FF*/
+	cursor: pointer;
+	display: inline-block;
+	padding: 10px 37px; /*distancia entre menus.  alto y ancho*/
+	
+	
+}
+
+nav ul li a /*menus*/
+{
+	color:#f1f1f1;
+	text-decoration: none;
+	padding: 10px 15px;
+	transition: all 0.5s  linear;
+	-moz-transition: all 0.5s  linear;
+	-o-transition: all 0.5s  linear;
+	-webkit-transition: all 0.5s  linear;
+
+
+}
+nav ul li a:hover  /* efecto que resalta el menú*/
+{
+	box-shadow: #f1f1f1 0px 0px 20px;  /* color y pixeles*/
+	background-color: #333; /* cambia de color*/
+}
+
+aside /* eestilo del aside*/
+{
+	float:right; /* flote a la derecha*/
+	margin-right:  2px; /* tamaño de margen entre imgen y texto*/
+	margin-bottom: 10px; /*cuando se agregue un texto no se pegue con la imagen */
+
+} 
+
+section
+{
+	font-style:italic; 
+	text-align: justify; /* texto justificado */
+	padding: 10px;/* */
+}
+
+.subtitle
+{
+	font-size: 22.4px;
+	font-weight: 500; /*negrilla del subtitulo*/
+	position: static;
+	text-align: center; /*alineado*/
+}
+
+.imagen
+{
+
+	transition: all 0.5s  linear;
+	-moz-transition: all 0.5s  linear;
+	-o-transition: all 0.5s  linear;
+	-webkit-transition: all 0.5s  linear;
+	cursor: pointer;
+	margin: 10px
+}
+
+	
+
+footer
+{
+	background-color: #666;
+	text-align: center;
+	padding: 10px 15px; /*linea*/
+	color: #f1f1f1;
+}
