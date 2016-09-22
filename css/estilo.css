@@ -64,7 +64,10 @@ aside /* eestilo del aside*/
 	float:right; /* flote a la derecha*/
 	margin-right:  2px; /* tamaño de margen entre imgen y texto*/
 	margin-bottom: 10px; /*cuando se agregue un texto no se pegue con la imagen */
-
+	transition: all 0.5s  linear;
+	-moz-transition: all 0.5s  linear;
+	-o-transition: all 0.5s  linear;
+	-webkit-transition: all 0.5s  linear;
 } 
 
 section
@@ -85,10 +88,6 @@ section
 .imagen
 {
 
-	transition: all 0.5s  linear;
-	-moz-transition: all 0.5s  linear;
-	-o-transition: all 0.5s  linear;
-	-webkit-transition: all 0.5s  linear;
 	cursor: pointer;
 	margin: 10px
 }
