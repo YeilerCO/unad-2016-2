@@ -2,7 +2,7 @@ body
 {
 	
 	margin: auto; /* margen */
-	background: url(../img/123.png);
+	background: url(./img/123.png);
 	font-family: segoe ui; /* tipo de letra del cuerpo segoe ui*/
 }
 header /*encabezamiento*/
@@ -13,7 +13,7 @@ header /*encabezamiento*/
 	
 	background: #daa520;
 	font-family: segoe ui;
-	font-style: 
+	font-style: italic;
 	height: 120 px;/*altura*/
 	margin:0 auto;
 	width: 920px;
