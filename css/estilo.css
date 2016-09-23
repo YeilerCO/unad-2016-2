@@ -2,7 +2,7 @@ body
 {
 	
 	margin: auto; /* margen */
-	background: url(./img/123.png);
+	background: url(../img/123.png);
 	font-family: segoe ui; /* tipo de letra del cuerpo segoe ui*/
 }
 header /*encabezamiento*/
